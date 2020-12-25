@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(155, 214, 196);
+    color: white;
+}
+
+header {
+    background-color: rgb(1, 54, 1);
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 100;
+}
+
+a {
+    color: white;
+}
+
+img {
+    height: 80px;
+    width: 120px;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#principal {
+    position: absolute;
+    top: 120px;
+    left: 150px;
+    justify-content: center;
+    max-width: 1000px;
+    color: black;
+}
+
+#imgIni {
+    height: 300px;
+    width: 350px;
+}
+
+#producto{
+    margin-left: 20px;
+}
+
+#imgPro {
+    height: 200px;
+    width: 200px;
+    padding-right: 10px;
+}
+
+#video {
+    color: black;
+}
+
+#contacto {
+    margin-left: 300px;
+    max-width: 400px;
+}
+
